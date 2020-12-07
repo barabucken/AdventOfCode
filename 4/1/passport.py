@@ -1,4 +1,4 @@
-file1 = open("test.txt")
+file1 = open("input.txt")
 start_passports = file1.read().split("\n\n")
 passports = []
 
