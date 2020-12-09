@@ -8,10 +8,8 @@ for i in bpass:
 	for x in i[0:7]:
 		if x == "F":
 			rows[1] = int(((int(rows[0]) + int(rows[1]))/2))
-		
 		if x == "B":
 			rows[0] = int(rows[1]) - int((((int(rows[1]) - int(rows[0])) - 1) / 2))
-	
 	for y in i[7:]:
 		if y == "L":
 			columns[1] = int(((int(columns[0]) + int(columns[1]))/2))
